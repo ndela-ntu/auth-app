@@ -5,8 +5,6 @@ import { BiArrowFromLeft } from "react-icons/bi";
 import bcrypt from 'bcryptjs';
 
 export default async function Home() {
-  console.log(await bcrypt.hash('123456', 10));
-  
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <Link
